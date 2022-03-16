@@ -149,7 +149,6 @@ void main() {
   for (int i = 0; i < numList.length; i++) {
     for (int j = i + 1; j < numList.length; j++) {
       if (numList[i] + numList[j] == sum) {
-        // print('Pairs: ${numList[i]} + ${numList[j]}');
         pairs.add([numList[i], numList[j]]);
       }
     }
